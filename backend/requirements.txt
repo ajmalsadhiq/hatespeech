@@ -1,0 +1,15 @@
+# Flask and web dependencies
+flask==3.0.0
+flask-cors==4.0.0
+
+# ML dependencies
+transformers==4.36.0
+torch==2.1.0
+sentencepiece==0.1.99
+
+# Language detection and translation
+langdetect==1.0.9
+googletrans==4.0.0-rc1
+
+# Utilities
+numpy==1.26.2
