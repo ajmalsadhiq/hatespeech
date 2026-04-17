@@ -275,34 +275,3 @@ Project Link: [https://github.com/ajmalsadhiq/hatespeech](https://github.com/ajm
 **⭐ Star this repository if you found it useful!**
 ```
 
----
-
-## Important Next Steps for You
-
-Since your Colab notebook is **private**, please do this:
-
-1. **Open the notebook** in Google Colab
-2. Click the **"Share"** button (top-right)
-3. Change from "Restricted" to **"Anyone with the link can view"**
-4. Copy the new shareable link
-5. Replace the Colab link in the README with this new one
-
-The current link will show a login screen until you make it public. Once you do that, the README will work perfectly.
-
----
-
-## Screenshots to Add
-
-Create a `screenshots/` folder in your repo and add these images:
-
-| Filename | Content |
-|----------|---------|
-| `web_ui.png` | Main interface with a prediction |
-| `confusion_matrix.png` | Heatmap from evaluation |
-| `colab_training.png` | Screenshot of Colab training cells |
-| `api_docs.png` | FastAPI Swagger UI at `/docs` |
-| `database_schema.png` | PostgreSQL table structure |
-
-The README references these images – they'll make your project look very professional!
-
-Would you like me to help you **create any additional documentation** (like a `CONTRIBUTING.md`, `LICENSE`, or `Dockerfile`)?
