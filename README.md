@@ -273,4 +273,3 @@ Project Link: [https://github.com/ajmalsadhiq/hatespeech](https://github.com/ajm
 ---
 
 **⭐ Star this repository if you found it useful!**
-```
