@@ -10,7 +10,6 @@
 
 An end-to-end NLP system for automatic detection of hate speech, offensive language, and neutral text. Built with **BERT fine-tuning**, **FastAPI backend**, and **Next.js frontend**.
 
-🌐 **Live Demo:** [hatespeech-six.vercel.app](https://hatespeech-six.vercel.app)  
 📓 **Google Colab Notebook:** [Open in Colab](https://colab.research.google.com/drive/1DY161P0h8ChTQWdCJo7Jpc47ent99WEB?usp=sharing)
 
 ---
@@ -110,31 +109,10 @@ Input Text → BERT Tokenizer → BERT Embeddings (768)
 **Overall Accuracy:** 92.3%  
 **AUC-ROC:** 0.96  
 
-![Confusion Matrix](screenshots/confusion_matrix.png)
-
 ---
 
-## 📓 Google Colab Notebook
 
-The training pipeline is fully reproducible using the provided Colab notebook. The notebook includes:
-
-1. **Environment Setup** – Install dependencies (transformers, torch, datasets)
-2. **Data Loading** – Download and preprocess the dataset
-3. **Model Fine-tuning** – Train BERT with progress bars and checkpoints
-4. **Evaluation** – Generate metrics, confusion matrix, and sample predictions
-5. **Export** – Save model in both PyTorch (.bin) and ONNX formats
-
-### 🚀 How to Use the Colab Notebook
-
-1. **Open the notebook:** [Click here](https://colab.research.google.com/drive/1DY161P0h8ChTQWdCJo7Jpc47ent99WEB?usp=sharing)
-2. **Make a copy:** File → Save a copy in Drive (to save your changes)
-3. **Enable GPU:** Runtime → Change runtime type → T4 GPU
-4. **Run all cells:** Runtime → Run all
-5. **Download trained model:** After training, the notebook will automatically save `model_final.bin` to your Google Drive
-
-> ⚠️ **Note:** The notebook is currently private. Please request access or [make it public](https://stackoverflow.com/questions/52308255/how-to-share-google-colab-notebook) by clicking "Share" → "Anyone with the link can view".
-
-### Colab Features Used
+### Google Colab Features Used
 - GPU acceleration (NVIDIA T4)
 - Google Drive mounting for saving models
 - TensorBoard logging
@@ -203,7 +181,6 @@ psql -d hatespeech_db -f backend/migrations/001_create_predictions.sql
 3. Click "Analyze" to get prediction
 4. View history in the table below
 
-![Web Interface Screenshot](screenshots/web_ui.png)
 
 ### API Usage
 ```python
@@ -279,12 +256,6 @@ Contributions are welcome! Please follow these steps:
 
 ---
 
-## 📄 License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
----
-
 ## 🙏 Acknowledgements
 
 - [HuggingFace Transformers](https://github.com/huggingface/transformers)
@@ -298,7 +269,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Ajmal Sadhiq PE - [@ajmalsadhiq](https://github.com/ajmalsadhiq)  
 Project Link: [https://github.com/ajmalsadhiq/hatespeech](https://github.com/ajmalsadhiq/hatespeech)  
-Live Demo: [https://hatespeech-six.vercel.app](https://hatespeech-six.vercel.app)
 
 ---
 
